@@ -45,12 +45,11 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-### 4. Install Flask and Other Dependencies
+### 4. Install Dependencies
 
-Manually install Flask and other required dependencies using pip:
-
+Install Flask and other required dependencies using the [`requirements.txt`]
 ```bash
-pip install flask pymongo
+pip install -r requirements.txt
 ```
 
 ### 5. Set Up Environment Variables
